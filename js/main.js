@@ -30,37 +30,37 @@ $('input[type=radio][name=time]').change(function() {
 
     switch ($(this).val()) {
     case 'sales':
-        $('.form-content .form-group').show();
+        $('.form-content .form-group').show().removeClass('hidden');
         $('.form-content .form-group.linkedin').hide().addClass('hidden');
         break;
     case 'marketing':
-        $('.form-content .form-group').show();
+        $('.form-content .form-group').show().removeClass('hidden');
         $('.form-content .form-group.linkedin').hide().addClass('hidden');
         $('.form-content .form-group.whatsapp').hide().addClass('hidden');
         $('.form-content .form-group.telefone').hide().addClass('hidden');
         break;
     case 'financeiro':
-        $('.form-content .form-group').show();
+        $('.form-content .form-group').show().removeClass('hidden');
         $('.form-content .form-group.linkedin').hide().addClass('hidden');
         $('.form-content .form-group.whatsapp').hide().addClass('hidden');
         break;
     case 'rh':
-        $('.form-content .form-group').show();
+        $('.form-content .form-group').show().removeClass('hidden');
         $('.form-content .form-group.whatsapp').hide().addClass('hidden');
         break;
     case 'customer-success':
-        $('.form-content .form-group').show();
+        $('.form-content .form-group').show().removeClass('hidden');
         $('.form-content .form-group.linkedin').hide().addClass('hidden');
         $('.form-content .form-group.telefone').hide().addClass('hidden');
         break;
     case 'suporte':
-        $('.form-content .form-group').show();
+        $('.form-content .form-group').show().removeClass('hidden');
         $('.form-content .form-group.linkedin').hide().addClass('hidden');
         $('.form-content .form-group.whatsapp').hide().addClass('hidden');
         $('.form-content .form-group.telefone').hide().addClass('hidden');
         break;
     case 'tech':
-        $('.form-content .form-group').show();
+        $('.form-content .form-group').show().removeClass('hidden');
         $('.form-content .form-group.linkedin').hide().addClass('hidden');
         $('.form-content .form-group.whatsapp').hide().addClass('hidden');
         $('.form-content .form-group.telefone').hide().addClass('hidden');
