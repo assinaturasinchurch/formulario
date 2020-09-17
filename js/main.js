@@ -65,6 +65,12 @@ $('input[type=radio][name=time]').change(function() {
         $('.form-content .form-group.whatsapp').hide().addClass('hidden');
         $('.form-content .form-group.telefone').hide().addClass('hidden');
         break;
+    case 'pcp':
+        $('.form-content .form-group').show().removeClass('hidden');
+        $('.form-content .form-group.linkedin').hide().addClass('hidden');
+        $('.form-content .form-group.whatsapp').hide().addClass('hidden');
+        $('.form-content .form-group.telefone').hide().addClass('hidden');
+        break;
     }
 });
 
